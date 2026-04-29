@@ -31,6 +31,7 @@ This project implements a **Hybrid Product Recommendation System** that provides
 ---
 
 ## 🗂️ Project Structure
+**'''**
 ├── data/
 │ └── dataset # Raw dataset
 │
@@ -50,7 +51,7 @@ This project implements a **Hybrid Product Recommendation System** that provides
 ├── README.md
 ├── LICENSE
 └── .gitignore
-
+**'''**
 
 ---
 
