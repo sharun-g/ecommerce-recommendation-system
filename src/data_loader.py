@@ -13,4 +13,9 @@ def load_data():
         dtype={"order_id": "int32", "product_id": "int32"}
     )
 
-    return orders, order_products
+    products = pd.read_csv(
+        "data/products.csv",
+        usecols=["product_id", "product_name"]
+    )
+
+    return orders, order_products, products
