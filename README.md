@@ -31,27 +31,28 @@ This project implements a **Hybrid Product Recommendation System** that provides
 ---
 
 ## 🗂️ Project Structure
-**'''**
+
+```text
 ├── data/
-│ └── dataset # Raw dataset
+│   └── dataset                 # Raw dataset
 │
 ├── src/
-│ ├── data_loader.py # Load dataset
-│ ├── preprocess.py # Data preprocessing
-│ ├── cf_model.py # Collaborative Filtering
-│ ├── fp_growth_model.py # FP-Growth implementation
-│ └── hybrid_model.py # Hybrid recommendation logic
+│   ├── data_loader.py         # Load dataset
+│   ├── preprocess.py          # Data preprocessing
+│   ├── cf_model.py            # Collaborative Filtering
+│   ├── fp_growth_model.py     # FP-Growth implementation
+│   └── hybrid_model.py        # Hybrid recommendation logic
 │
-├── EDA.py # Exploratory Data Analysis
-├── train.py # Model training
-├── evaluation.py # Model evaluation
-├── visualization.py # Graphs and plots
-├── main.py # Run recommendation system
-├── requirements.txt # Dependencies
+├── EDA.py                     # Exploratory Data Analysis
+├── train.py                   # Model training
+├── evaluation.py              # Model evaluation
+├── visualization.py           # Graphs and plots
+├── main.py                    # Run recommendation system
+├── requirements.txt           # Dependencies
 ├── README.md
 ├── LICENSE
 └── .gitignore
-**'''**
+```
 
 ---
 
