@@ -59,4 +59,5 @@ This project implements a **Hybrid Product Recommendation System** that provides
 ## ⚙️ Installation
 ```bash
 pip install -r requirements.txt
+python train.py
 python main.py
