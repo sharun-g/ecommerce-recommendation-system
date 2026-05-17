@@ -56,8 +56,19 @@ This project implements a **Hybrid Product Recommendation System** that provides
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Installation & Run
+
+### 1. Install dependencies
 ```bash
 pip install -r requirements.txt
+```
+
+### 2. Train the recommendation models
+```bash
 python train.py
+```
+
+### 3. Run the recommendation system
+```bash
 python main.py
+```
