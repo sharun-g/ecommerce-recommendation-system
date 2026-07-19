@@ -36,6 +36,10 @@ This project implements a **Hybrid Product Recommendation System** that provides
 ├── data/
 │   └── dataset                 # Raw dataset
 │
+├── Reports/
+│   ├── DWDM project report.pptx         
+│   ├── final report.docx 
+|
 ├── src/
 │   ├── data_loader.py         # Load dataset
 │   ├── preprocess.py          # Data preprocessing
@@ -49,6 +53,8 @@ This project implements a **Hybrid Product Recommendation System** that provides
 ├── visualization.py           # Graphs and plots
 ├── main.py                    # Run recommendation system
 ├── requirements.txt           # Dependencies
+│── Dockerfile
+│── start.sh
 ├── README.md
 ├── LICENSE
 └── .gitignore
@@ -58,17 +64,51 @@ This project implements a **Hybrid Product Recommendation System** that provides
 
 ## ⚙️ Installation & Run
 
-### 1. Install dependencies
+### 1. Clone the repository
+```bash
+git clone https://github.com/sharun-g/ecommerce-recommendation-system.git
+cd ecommerce-recommendation-system
+```
+
+### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Train the recommendation models
+### 3. Train the recommendation models
 ```bash
 python train.py
 ```
 
-### 3. Run the recommendation system
+### 4. Run the recommendation system
 ```bash
 python main.py
 ```
+## Docker
+
+Build the Docker image
+
+```bash
+docker build -t ecommerce-recommendation-system .
+```
+
+Run the container
+
+```bash
+docker run -it --rm ecommerce-recommendation-system
+```
+
+## Sample Usage
+
+```
+Enter product name:  Organic Strawberries
+
+Recommended Products
+
+• Organic Baby Spinach
+• Banana
+• Organic Hass Avocado
+```
+## Author
+
+**Sharun**
