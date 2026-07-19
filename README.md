@@ -61,6 +61,14 @@ This project implements a **Hybrid Product Recommendation System** that provides
 ```
 
 ---
+The dataset is not included in this repository because of its size.
+
+Download the dataset from:
+
+**Instacart Market Basket Analysis**
+https://www.kaggle.com/competitions/instacart-market-basket-analysis/data
+
+After downloading, place the CSV files inside the `data/` folder.
 
 ## ⚙️ Installation & Run
 
@@ -84,7 +92,7 @@ python train.py
 ```bash
 python main.py
 ```
-## Docker
+## 🐳 Docker
 
 Build the Docker image
 
